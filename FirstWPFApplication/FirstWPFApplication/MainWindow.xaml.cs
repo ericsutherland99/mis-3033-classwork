@@ -23,6 +23,9 @@ namespace FirstWPFApplication
         public MainWindow()
         {
             InitializeComponent();
+            txtFirstName.Text = string.Empty;
+            txtLastName.Text = string.Empty;
+            mainwindow.Background = Brushes.Red;
         }
 
         private void btn_click(object sender, RoutedEventArgs e)
@@ -31,9 +34,31 @@ namespace FirstWPFApplication
             string lastname = txtLastName.Text;
             string answer = dateDOB.Text;
             DateTime DOB = Convert.ToDateTime(answer);
-            TimeSpan age = DOB - DateTime.Now.Date;
+            //TimeSpan age = ((DateTime.Now.Date - DOB) / 365);
 
-            MessageBox.Show($"Thanks for clicking me you are {age} years old!");
+           
+
+
+            MessageBox.Show($"Thanks for clicking me {firstname} {lastname}, you are {CalculateAgeCorrect(DOB, DateTime.Now)} years old!");
+        }
+
+        public int CalculateAgeCorrect(DateTime birthDate, DateTime now)
+        {
+            int age = now.Year - birthDate.Year;
+
+            if (now.Month < birthDate.Month || (now.Month == birthDate.Month && now.Day < birthDate.Day))
+                age--;
+
+            return age;
+        }
+
+        private void btn_enter(object sender, MouseEventArgs e)
+        {
+            mainwindow.Background = Brushes.Yellow;
+        }
+        private void btn_leave(object sender, MouseEventArgs e)
+        {
+            mainwindow.Background = Brushes.Red;
         }
     }
 }

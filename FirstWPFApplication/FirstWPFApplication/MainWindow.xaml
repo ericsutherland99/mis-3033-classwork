@@ -6,23 +6,14 @@
         xmlns:local="clr-namespace:FirstWPFApplication"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="mainwindow">
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF9260BB"/>
-                <GradientStop Color="#FFCB768D" Offset="1"/>
-                <GradientStop Color="#FF629295" Offset="0.262"/>
-                <GradientStop Color="#FFC9C57C" Offset="0.529"/>
-                <GradientStop Color="#FF2121D4" Offset="0.787"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+    <Grid x:Name="mainwindow" Background="Red">
         <Label x:Name="lblfirstname" Content="FirstName" HorizontalAlignment="Left" Margin="109,89,0,0" VerticalAlignment="Top" Height="33" Width="65"/>
         <Label x:Name="lbllastname" Content="LastName" HorizontalAlignment="Left" Margin="109,136,0,0" VerticalAlignment="Top" Height="38" Width="65" RenderTransformOrigin="0.951,0.622"/>
         <Label x:Name="lblDOB" Content="DOB" HorizontalAlignment="Left" Margin="109,179,0,0" VerticalAlignment="Top" Height="30" Width="65"/>
         <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="211,89,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" Height="33"/>
         <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="211,136,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.328,0.517" Height="30"/>
         <DatePicker x:Name="dateDOB" HorizontalAlignment="Left" Margin="211,179,0,0" VerticalAlignment="Top" Height="32" Width="128"/>
-        <Button x:Name="btnsubmit" Content="Click me?" HorizontalAlignment="Left" Margin="305,293,0,0" VerticalAlignment="Top" Height="46" Width="95" IsDefault="True" Click="btn_click"/>
+        <Button x:Name="btnsubmit" Content="Click me?" HorizontalAlignment="Left" Margin="305,293,0,0" VerticalAlignment="Top" Height="46" Width="95" IsDefault="True" Click="btn_click" MouseEnter="btn_enter" MouseLeave="btn_leave"/>
 
     </Grid>
 </Window>
