@@ -24,5 +24,16 @@ namespace FirstWPFApplication
         {
             InitializeComponent();
         }
+
+        private void btn_click(object sender, RoutedEventArgs e)
+        {
+            string firstname = txtFirstName.Text;
+            string lastname = txtLastName.Text;
+            string answer = dateDOB.Text;
+            DateTime DOB = Convert.ToDateTime(answer);
+            TimeSpan age = DOB - DateTime.Now.Date;
+
+            MessageBox.Show($"Thanks for clicking me you are {age} years old!");
+        }
     }
 }
