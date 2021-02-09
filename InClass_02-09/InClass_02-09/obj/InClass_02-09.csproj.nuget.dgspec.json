@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\FirstWPFApplication\\FirstWPFApplication\\FirstWPFApplication.csproj": {}
+    "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\InClass_02-09\\InClass_02-09\\InClass_02-09.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\FirstWPFApplication\\FirstWPFApplication\\FirstWPFApplication.csproj": {
+    "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\InClass_02-09\\InClass_02-09\\InClass_02-09.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\FirstWPFApplication\\FirstWPFApplication\\FirstWPFApplication.csproj",
-        "projectName": "FirstWPFApplication",
-        "projectPath": "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\FirstWPFApplication\\FirstWPFApplication\\FirstWPFApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\InClass_02-09\\InClass_02-09\\InClass_02-09.csproj",
+        "projectName": "InClass_02-09",
+        "projectPath": "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\InClass_02-09\\InClass_02-09\\InClass_02-09.csproj",
         "packagesPath": "C:\\Users\\ericsutherland\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\FirstWPFApplication\\FirstWPFApplication\\obj\\",
+        "outputPath": "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\InClass_02-09\\InClass_02-09\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ericsutherland\\AppData\\Roaming\\NuGet\\NuGet.Config",

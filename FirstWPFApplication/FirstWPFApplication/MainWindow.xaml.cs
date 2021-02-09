@@ -32,10 +32,16 @@ namespace FirstWPFApplication
         {
             string firstname = txtFirstName.Text;
             string lastname = txtLastName.Text;
-            string answer = dateDOB.Text;
-            DateTime DOB = Convert.ToDateTime(answer);
+            //string answer = dateDOB.Text;
+            DateTime DOB = dateDOB.SelectedDate.Value;//Convert.ToDateTime(answer);
             //TimeSpan age = ((DateTime.Now.Date - DOB) / 365);
 
+            //int age = DateTime.Now.Year - DOB.Year;
+
+            //if (DateTime.Now.Month < DOB.Month || (DateTime.Now.Month == DOB.Month && DateTime.Now.Day < DOB.Day))
+            //{
+            //    age--;
+            //}
            
 
 
