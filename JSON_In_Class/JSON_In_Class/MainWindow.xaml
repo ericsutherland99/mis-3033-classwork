@@ -1,0 +1,17 @@
+﻿<Window x:Class="JSON_In_Class.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_In_Class"
+        mc:Ignorable="d"
+        Title="Rick and Morty" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3-prod.adage.com%2Fs3fs-public%2Fstyles%2Fwidth_1024%2Fpublic%2F20201028_rick_morty_wrangler_3x2b.jpg&amp;imgrefurl=https%3A%2F%2Fadage.com%2Farticle%2Fcmo-strategy%2Fwrangler-teams-rick-and-morty-new-clothing-line%2F2290851&amp;tbnid=N-NfUk9fq1GNvM&amp;vet=12ahUKEwi4_8rm44DvAhWEna0KHQ2nBCoQMygSegUIARCPAg..i&amp;docid=CENlz0NWkyC8-M&amp;w=1024&amp;h=683&amp;q=rick%20and%20morty&amp;ved=2ahUKEwi4_8rm44DvAhWEna0KHQ2nBCoQMygSegUIARCPAg"/>
+    </Window.Background>
+    <Grid>
+        <ListBox x:Name="lstcharacters" Height="211" Width="249" SelectionChanged="lstcharacters_SelectionChanged" Margin="449,0,102,223"/>
+        <Image x:Name="imgcharacter" Height="186" Width="267" Margin="2,-5,531,253"/>
+
+    </Grid>
+</Window>

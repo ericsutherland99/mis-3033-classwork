@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\ericsutherland\Source\Repos\ericsutherland99\mis-3033-classwork\WPF_Browser\WPF_Browser\obj\Debug\netcoreapp3.1\
+C:\Users\ericsutherland\Source\Repos\ericsutherland99\mis-3033-classwork\WPF_Browser\WPF_Browser\obj\Release\netcoreapp3.1\
 WPF_Browser
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\ericsutherland\Source\Repos\ericsutherland99\mis-3033-classwork\WPF_Browser\WPF_Browser\App.xaml
 2-791265854
 
@@ -16,5 +16,5 @@ C:\Users\ericsutherland\Source\Repos\ericsutherland99\mis-3033-classwork\WPF_Bro
 1921654412462
 MainWindow.xaml;MyWebBrowserWindow.xaml;
 
-False
+True
 
