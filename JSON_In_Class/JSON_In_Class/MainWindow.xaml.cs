@@ -26,20 +26,30 @@ namespace JSON_In_Class
         {
             InitializeComponent();
 
-
             //https://rickandmortyapi.com/api/character
 
             using (var client = new HttpClient())
             {
                 string jsonData = client.GetStringAsync("https://rickandmortyapi.com/api/character").Result;
-
-                RickAndMortyAPI api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData);
-
+                RickAndMortyAPI api;
+                api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData);
                 foreach (var character in api.results)
                 {
                     lstcharacters.Items.Add(character);
                 }
-
+                while (api.info.next != null)
+                {
+                    using (var link = new HttpClient())
+                    {
+                        var next = api.info.next;
+                        jsonData = link.GetStringAsync(next.ToString()).Result;
+                        api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData);
+                        foreach (var character in api.results)
+                        {
+                            lstcharacters.Items.Add(character);
+                        }
+                    }
+                }
             }
 
         }
