@@ -19,3 +19,5 @@ C:\Users\ericsutherland\source\repos\ericsutherland99\mis-3033-classwork\JSON_In
 C:\Users\ericsutherland\source\repos\ericsutherland99\mis-3033-classwork\JSON_In_Class\JSON_In_Class\obj\Debug\netcoreapp3.1\JSON_In_Class.dll
 C:\Users\ericsutherland\source\repos\ericsutherland99\mis-3033-classwork\JSON_In_Class\JSON_In_Class\obj\Debug\netcoreapp3.1\JSON_In_Class.pdb
 C:\Users\ericsutherland\source\repos\ericsutherland99\mis-3033-classwork\JSON_In_Class\JSON_In_Class\obj\Debug\netcoreapp3.1\JSON_In_Class.genruntimeconfig.cache
+C:\Users\ericsutherland\source\repos\ericsutherland99\mis-3033-classwork\JSON_In_Class\JSON_In_Class\obj\Debug\netcoreapp3.1\NewWindow.g.cs
+C:\Users\ericsutherland\source\repos\ericsutherland99\mis-3033-classwork\JSON_In_Class\JSON_In_Class\obj\Debug\netcoreapp3.1\NewWindow.baml

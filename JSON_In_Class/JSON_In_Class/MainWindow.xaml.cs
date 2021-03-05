@@ -57,7 +57,14 @@ namespace JSON_In_Class
         private void lstcharacters_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var selectedcharacter = (Character)lstcharacters.SelectedItem;
-            imgcharacter.Source = new BitmapImage(new Uri(selectedcharacter.image));
+            if (selectedcharacter is null)
+            {
+                return;
+            }
+            NewWindow newWindow = new NewWindow();
+            newWindow.Picture(selectedcharacter);
+            newWindow.ShowDialog();
+            
 
         }
     }
