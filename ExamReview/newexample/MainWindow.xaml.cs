@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,39 @@ namespace newexample
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private List<noodledate> dates = new List<noodledate>();
+        public MainWindow() 
         {
             InitializeComponent();
+            var lines = File.ReadAllLines("multiTimeline.csv").Skip(3);
+            foreach(var line in lines)
+            {
+                dates.Add(new noodledate(line));
+            }
+            populatelistbox(dates);
+        }
+
+        private void populatelistbox(List<noodledate> noodlezzz)
+        {
+            lstnoodle.Items.Clear();
+            foreach (var date in noodlezzz)
+            {
+                lstnoodle.Items.Add(date);
+            }
+        }
+
+        private void btnclick_Click(object sender, RoutedEventArgs e)
+        {
+            int max = 0;
+            foreach(var date in dates)
+            {
+                int amt = Convert.ToInt32(date.Pho);
+                if (amt > max)
+                {
+                    max = amt;
+                }
+            }
+            lblmax.Content = max;
         }
     }
 }
