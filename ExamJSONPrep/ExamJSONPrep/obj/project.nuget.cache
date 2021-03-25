@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NXswm/extHxnQ/tKKQA3CQ7+4JFQb6ac7IKNflk2uecZUDdnt1lxZnar9GAuRoHHDaxWAKK0nGh6fTU/f3p7uw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\ExamJSONPrep\\ExamJSONPrep\\ExamJSONPrep.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericsutherland\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
