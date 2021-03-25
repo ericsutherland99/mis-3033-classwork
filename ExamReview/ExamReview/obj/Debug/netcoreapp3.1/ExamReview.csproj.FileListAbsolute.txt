@@ -1,0 +1,20 @@
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\bin\Debug\netcoreapp3.1\ExamReview.exe
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\bin\Debug\netcoreapp3.1\ExamReview.deps.json
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\bin\Debug\netcoreapp3.1\ExamReview.runtimeconfig.json
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\bin\Debug\netcoreapp3.1\ExamReview.runtimeconfig.dev.json
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\bin\Debug\netcoreapp3.1\ExamReview.dll
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\bin\Debug\netcoreapp3.1\ExamReview.pdb
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\Example window.g.cs
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview_MarkupCompile.cache
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview_MarkupCompile.lref
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\Example window.baml
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview.g.resources
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview.AssemblyInfoInputs.cache
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview.AssemblyInfo.cs
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview.csproj.CoreCompileInputs.cache
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview.dll
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview.pdb
+C:\Users\suth0004\source\repos\ericsutherland99\mis-3033-classwork\ExamReview\ExamReview\obj\Debug\netcoreapp3.1\ExamReview.genruntimeconfig.cache
