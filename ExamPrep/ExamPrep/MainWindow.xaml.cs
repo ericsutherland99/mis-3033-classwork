@@ -36,13 +36,20 @@ namespace ExamPrep
             {
                 lstdates.Items.Add(line);
             }
+            foreach (Cupcake cupcake in cupcakes)
+            {
+                if (cupcake.cupcake >= 10)
+                {
+                    cmb10.Items.Add(cupcake);
+                }
+            }
         }
 
         private void lstdates_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             Cupcake cupcake = new Cupcake();
             cupcake = (Cupcake)lstdates.SelectedItem;
-            txttotalcupcakes.Text = cupcake.cupcake;
+            txttotalcupcakes.Text = cupcake.cupcake.ToString();
             
 
         }
@@ -52,10 +59,19 @@ namespace ExamPrep
             int total = 0;
             foreach(Cupcake cupcake in cupcakes)
             {
-                cupcake.intcupcake = Convert.ToInt32(cupcake.cupcake);
-                total += cupcake.intcupcake;
+                //cupcake.intcupcake = Convert.ToInt32(cupcake.cupcake);
+                total += cupcake.cupcake;
             }
             lbltotalcupcakes.Content = total;
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+
+            Cupcake cupcake = new Cupcake();
+            cupcake = (Cupcake)cmb10.SelectedItem;
+            lblmorethanten.Content = cupcake.cupcake;
         }
     }
 }

@@ -11,7 +11,8 @@
         <Button x:Name="btntotalcupcakes" Content="how many cupcakes" HorizontalAlignment="Left" Margin="258,281,0,0" VerticalAlignment="Top" Click="btntotalcupcakes_Click"/>
         <Label x:Name="lbltotalcupcakes" Content="Label" HorizontalAlignment="Left" Margin="220,116,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="txttotalcupcakes" HorizontalAlignment="Left" Margin="220,186,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="96,90,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblmorethanten" Content="Label" HorizontalAlignment="Left" Margin="96,90,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmb10" HorizontalAlignment="Left" Margin="75,264,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
 
     </Grid>
 </Window>

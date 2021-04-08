@@ -69,7 +69,7 @@ namespace ExamJSONPrep {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ExamJSONPrep;component/catfactwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ExamJSONPrep;V1.0.0.0;component/catfactwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CatFactWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

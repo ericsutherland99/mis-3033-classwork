@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\ExamPrep.csproj": {}
+    "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\ExamPrep.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\ExamPrep.csproj": {
+    "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\ExamPrep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\ExamPrep.csproj",
+        "projectUniqueName": "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\ExamPrep.csproj",
         "projectName": "ExamPrep",
-        "projectPath": "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\ExamPrep.csproj",
+        "projectPath": "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\ExamPrep.csproj",
         "packagesPath": "C:\\Users\\ericsutherland\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ericsutherland\\Source\\Repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\obj\\",
+        "outputPath": "C:\\Users\\ericsutherland\\source\\repos\\ericsutherland99\\mis-3033-classwork\\ExamPrep\\ExamPrep\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ericsutherland\\AppData\\Roaming\\NuGet\\NuGet.Config",

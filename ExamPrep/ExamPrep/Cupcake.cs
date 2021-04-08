@@ -7,13 +7,13 @@ namespace ExamPrep
     public class Cupcake
     {
         public string month { get; set; }
-        public string cupcake { get; set; }
+        public int cupcake { get; set; }
 
         public int intcupcake { get; set; }
         public Cupcake()
         {
             month = string.Empty;
-            cupcake = string.Empty;
+            cupcake = 0;
             intcupcake = 0;
         }
 
@@ -21,7 +21,7 @@ namespace ExamPrep
         {
             var pieces = line.Split(",");
             month = pieces[0];
-            cupcake = pieces[1];
+            cupcake = Convert.ToInt32(pieces[1]);
         }
         public override string ToString()
         {
